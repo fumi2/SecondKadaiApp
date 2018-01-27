@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         
         let helloViewController:HelloViewController = segue.destination as! HelloViewController
         
-        helloViewController.name = textField.text
+        helloViewController.name = textField.text!
     }
     
     

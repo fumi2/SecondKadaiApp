@@ -72,7 +72,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kUG-nn-6kQ">
-                                <rect key="frame" x="160" y="90" width="55" height="20"/>
+                                <rect key="frame" x="30" y="90" width="315" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="4pY-56-Ksj"/>
                                 </constraints>
@@ -81,7 +81,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bNf-Fy-3x1">
-                                <rect key="frame" x="160" y="150" width="55" height="30"/>
+                                <rect key="frame" x="150" y="150" width="75" height="30"/>
                                 <state key="normal" title="戻る"/>
                                 <connections>
                                     <segue destination="v2A-kG-hgJ" kind="unwind" unwindAction="unwind:" id="DzG-gu-4pl"/>
@@ -91,10 +91,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="bNf-Fy-3x1" firstAttribute="top" secondItem="kUG-nn-6kQ" secondAttribute="bottom" constant="40" id="V5a-ls-1kq"/>
-                            <constraint firstItem="kUG-nn-6kQ" firstAttribute="leading" secondItem="e28-c0-cDd" secondAttribute="leading" constant="160" id="Xd0-O1-kTp"/>
-                            <constraint firstItem="bNf-Fy-3x1" firstAttribute="leading" secondItem="kUG-nn-6kQ" secondAttribute="leading" id="Yfd-UF-2Mf"/>
-                            <constraint firstItem="bNf-Fy-3x1" firstAttribute="trailing" secondItem="kUG-nn-6kQ" secondAttribute="trailing" id="dmV-7F-ybY"/>
-                            <constraint firstItem="e28-c0-cDd" firstAttribute="trailing" secondItem="kUG-nn-6kQ" secondAttribute="trailing" constant="160" id="irG-m2-Feu"/>
+                            <constraint firstItem="kUG-nn-6kQ" firstAttribute="leading" secondItem="e28-c0-cDd" secondAttribute="leading" constant="30" id="Xd0-O1-kTp"/>
+                            <constraint firstItem="bNf-Fy-3x1" firstAttribute="leading" secondItem="e28-c0-cDd" secondAttribute="leading" constant="150" id="hRr-BZ-FnK"/>
+                            <constraint firstItem="e28-c0-cDd" firstAttribute="trailing" secondItem="kUG-nn-6kQ" secondAttribute="trailing" constant="30" id="irG-m2-Feu"/>
+                            <constraint firstItem="e28-c0-cDd" firstAttribute="trailing" secondItem="bNf-Fy-3x1" secondAttribute="trailing" constant="150" id="iyu-ae-CH7"/>
                             <constraint firstItem="kUG-nn-6kQ" firstAttribute="top" secondItem="e28-c0-cDd" secondAttribute="top" constant="70" id="jku-LG-D3y"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="e28-c0-cDd"/>
