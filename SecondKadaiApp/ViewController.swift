@@ -27,7 +27,14 @@ class ViewController: UIViewController {
         
         let helloViewController:HelloViewController = segue.destination as! HelloViewController
         
+        // テキストフィールドに未入力の場合、名前を「名無し」にする
+        if textField.text! == "" {
+            helloViewController.name = "名無し"
+        }
+        else {
+       // テキストフィールドに入力した名前を渡す
         helloViewController.name = textField.text!
+        }
     }
     
     
