@@ -14,6 +14,7 @@
 		EA59679D201C131200AA1EFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA59679B201C131200AA1EFA /* LaunchScreen.storyboard */; };
 		EA5967A8201C131200AA1EFA /* SecondKadaiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5967A7201C131200AA1EFA /* SecondKadaiAppTests.swift */; };
 		EA5967B3201C131200AA1EFA /* SecondKadaiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5967B2201C131200AA1EFA /* SecondKadaiAppUITests.swift */; };
+		EA5967C1201C145A00AA1EFA /* HelloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5967C0201C145A00AA1EFA /* HelloViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		EA5967AE201C131200AA1EFA /* SecondKadaiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecondKadaiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA5967B2201C131200AA1EFA /* SecondKadaiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondKadaiAppUITests.swift; sourceTree = "<group>"; };
 		EA5967B4201C131200AA1EFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA5967C0201C145A00AA1EFA /* HelloViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				EA596799201C131200AA1EFA /* Assets.xcassets */,
 				EA59679B201C131200AA1EFA /* LaunchScreen.storyboard */,
 				EA59679E201C131200AA1EFA /* Info.plist */,
+				EA5967C0201C145A00AA1EFA /* HelloViewController.swift */,
 			);
 			path = SecondKadaiApp;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA5967C1201C145A00AA1EFA /* HelloViewController.swift in Sources */,
 				EA596795201C131200AA1EFA /* ViewController.swift in Sources */,
 				EA596793201C131200AA1EFA /* AppDelegate.swift in Sources */,
 			);
